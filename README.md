@@ -5,33 +5,38 @@
 [![SMS Licence](https://img.shields.io/aur/license/yaourt.svg)](#)
 [![SMS Licence](https://img.shields.io/badge/Version-beta-orange.svg)](#)
 
-A very basic student management system program written wity Python3. 
-Here used prettytable library for managing data and used some built-in python 
-libraries like- os, time, system, csv etc for this program. 
-
+A very basic student management system program written with Python3. 
+Here used PTable library for managing data and used some built-in python 
+libraries like- os, time, sys, platform, csv etc for this program. 
 
 ## Demo
 
+**Login Page**
+![SMS!](img/login_page.png)  
+
 **Home Interface**
 
-![SMS!](img/sms_01.png)  
+![SMS!](img/main_menu.png)  
 
 **Showing Database while empty**
 
-![SMS!](img/sms_02.png)
+![SMS!](img/empty_database.png)
 
 **Adding new student**
 
-![SMS!](img/sms_03.png)
+![SMS!](img/student_form.png)
 
 **Showing database**
 
-![SMS!](img/sms_04.png)
+![SMS!](img/student_database.png)
 
 ## Requirements
 
-* `python3 -m pip install -r requirements.txt`
+* `python -m pip install -r requirements.txt`
 
+## Run
+
+* `python sms.py`
 
 
 ## Features
@@ -45,6 +50,20 @@ libraries like- os, time, system, csv etc for this program.
 ### May 2018
 - [ ] Complete search student function
 - [ ] Add more necessary feature
+
+
+***
+
+## Stargazers over time
+
+[![Stargazers over time](https://starcharts.herokuapp.com/rbshadow/Student-Management-System.svg)](https://starcharts.herokuapp.com/rbshadow/Student-Management-System)
+      
+***
+
+
+## Special thanks to
+
++ [@mahbub3330](https://github.com/mahbub3330) for the design pattern.
 
 ## Contributing
 
