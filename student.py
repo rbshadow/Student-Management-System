@@ -48,14 +48,14 @@ def student_input():
                 name = first_name + ' ' + middle_name + ' ' + last_name
 
                 # Saving information
-                with open('student_database.csv', 'a') as fs:
+                with open('student_database.csv', 'a', newline='') as fs:
                     data = csv.writer(fs)
                     data.writerow([student_id, name, age, gender, department])
             else:
                 name = first_name + ' ' + last_name
 
                 # Saving information
-                with open('student_database.csv', 'a') as fs:
+                with open('student_database.csv', 'a', newline='') as fs:
                     data = csv.writer(fs)
                     data.writerow([student_id, name, age, gender, department])
             print()
@@ -96,7 +96,8 @@ def student_database():
 
         # Show student database
         print(data_table)
-    except Exception:
+    except Exception as e:
+        print(e)
         print('\nNot data available. Please add some student first.\n')
 
     choice = input('\nPlease enter your choice:\n'
