@@ -61,7 +61,7 @@ class StudentInfo:
                     print('\nFailed to login!')
                     print('Exiting...')
                     time.sleep(2)
-                    exit()
+                    sys.exit()
 
     @staticmethod
     def id_generator():
@@ -192,7 +192,7 @@ class StudentInfo:
             print('Thanks for using this program. See you soon.')
             print('Exiting...')
             time.sleep(1)
-            exit()
+            sys.exit()
         else:
             print()
             print('[X] Wrong Input!')
