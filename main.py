@@ -1,3 +1,4 @@
+import sys
 import time
 import os
 import platform
@@ -41,7 +42,7 @@ class StartMain:
             for i in range(3):
                 preloader.load(msg)
             time.sleep(1)
-            exit()
+            sys.exit()
         else:
             print()
             print('[✘] Wrong Input!')

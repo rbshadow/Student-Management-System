@@ -1,6 +1,7 @@
 import getpass
 import os
 import platform
+import sys
 import time
 import header_design
 from main import StartMain
@@ -63,4 +64,4 @@ class Admin:
                     for i in range(5):
                         preloader.load(msg)
                     time.sleep(2)
-                    exit()
+                    sys.exit()
